@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { StyledButton } from '../ContactForms/ContactForms.styled';
 import { StyledContactList, StyledContactItem } from './ContactList.styled';
 
-// import '../../index.css';
-
 const ContactList = ({ dataUsers, deleteContact }) => {
   return (
     <>
