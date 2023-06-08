@@ -14,14 +14,14 @@ code {
     monospace;
 }
 
-.wrapper {
+/* .wrapper {
   width: 500px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 
-button {
+/* button {
   background-color: #fff;
   border: 1px solid blueviolet;
   border-radius: 3px;
@@ -32,8 +32,8 @@ button {
 button:hover,
 button:focus {
   background-color: blue;
-}
-input {
+} */
+/* input {
   display: block;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -44,14 +44,14 @@ input {
 input:hover,
 input.focus {
   border-color: blue;
-}
+} */
 
-.forms {
+/* .forms {
   border: 1px solid black;
   padding-left: 5px;
   padding-top: 10px;
-}
-
+} */
+/* 
 .contact-list {
   width: 450px;
 }
@@ -59,4 +59,4 @@ input.focus {
 .contact-item {
   display: flex;
   justify-content: space-between;
-}
+} */

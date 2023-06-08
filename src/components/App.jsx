@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
-import '../index.css';
+import { StyledAppWrapper } from 'App.styled';
+// import '../index.css';
 import ContactForms from './ContactForms/ContactForms';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
@@ -67,7 +68,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="wrapper">
+        <StyledAppWrapper>
           <h1>Phonebook</h1>
           <ContactForms onSubmit={this.formSubmitData} />
           <h2>Contacts</h2>
@@ -76,7 +77,7 @@ class App extends Component {
             dataUsers={this.renderFilterContacts()}
             deleteContact={this.deleteContact}
           />
-        </div>
+        </StyledAppWrapper>
       </>
     );
   }
